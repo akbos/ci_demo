@@ -54,6 +54,12 @@ class User extends CI_Controller {
 
         }
 
+	public function summary()
+	{
+ 		echo " Stay tuned! The user summary is coming soon";	
+	
+	}
+
 }
 
 /* End of file welcome.php */
