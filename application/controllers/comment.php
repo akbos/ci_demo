@@ -39,7 +39,7 @@ class Comment extends CI_Controller {
                   
                   //print_r($_POST);
                   $this->userdb->insert($_POST['id'],$_POST['subject'],$_POST['body']);
-                  header('Location: http://trace.com');
+                  header('Location: http://user.com');
                 }
         }
 

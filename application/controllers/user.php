@@ -39,7 +39,7 @@ class User extends CI_Controller {
                   
                   //print_r($_POST);
                   $this->userdb->insert($_POST['first'],$_POST['last'],$_POST['address'],$_POST['city']);
-                  header('Location: http://trace.com');
+                  header('Location: http://user.com');
                 }
         }
 
